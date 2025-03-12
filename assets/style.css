@@ -1,1 +1,247 @@
-/*# sourceMappingURL=style.css.map */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-container > * {
+  flex: 1 1 calc(100% / 4);
+  margin: 10px;
+}
+
+.button-blue {
+  color: rgb(14, 108, 255);
+}
+
+.button-orange {
+  color: rgb(255, 135, 0);
+}
+
+.button-green {
+  color: rgb(76, 175, 80);
+}
+
+.padding-block-sm {
+  padding-block: 4px;
+}
+
+.margin-block-sm {
+  margin-block: 4px;
+}
+
+.padding-block-normal {
+  padding-block: 8px;
+}
+
+.margin-block-normal {
+  margin-block: 8px;
+}
+
+.padding-block-md {
+  padding-block: 16px;
+}
+
+.margin-block-md {
+  margin-block: 16px;
+}
+
+.padding-block-lg {
+  padding-block: 32px;
+}
+
+.margin-block-lg {
+  margin-block: 32px;
+}
+
+.padding-block-xl {
+  padding-block: 50px;
+}
+
+.margin-block-xl {
+  margin-block: 50px;
+}
+
+.padding-block-xxl {
+  padding-block: 100px;
+}
+
+.margin-block-xxl {
+  margin-block: 100px;
+}
+
+.padding-inline-sm {
+  padding-inline: 4px;
+}
+
+.margin-inline-sm {
+  margin-inline: 4px;
+}
+
+.padding-inline-normal {
+  padding-inline: 8px;
+}
+
+.margin-inline-normal {
+  margin-inline: 8px;
+}
+
+.padding-inline-md {
+  padding-inline: 16px;
+}
+
+.margin-inline-md {
+  margin-inline: 16px;
+}
+
+.padding-inline-lg {
+  padding-inline: 32px;
+}
+
+.margin-inline-lg {
+  margin-inline: 32px;
+}
+
+.padding-inline-xl {
+  padding-inline: 50px;
+}
+
+.margin-inline-xl {
+  margin-inline: 50px;
+}
+
+.padding-inline-xxl {
+  padding-inline: 100px;
+}
+
+.margin-inline-xxl {
+  margin-inline: 100px;
+}/*# sourceMappingURL=style.css.map */
