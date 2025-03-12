@@ -1,0 +1,11 @@
+$color-buttons: (
+  blue: rgb(14, 108, 255),
+  orange: rgb(255, 135, 0),
+  green: rgb(76, 175, 80),
+);
+
+@each $name, $color in $color-buttons {
+  .button-#{$name} {
+    color: $color;
+  }
+}

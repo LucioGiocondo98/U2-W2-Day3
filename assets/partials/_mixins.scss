@@ -1,0 +1,29 @@
+@mixin title-big {
+  font-size: $font-size-3;
+  color: $color-text;
+  font-family: $primary-font;
+}
+
+@mixin floating(
+  $border-radius: 8px,
+  $box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1),
+  $border: 1px solid #ddd
+) {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  border: $border;
+}
+
+@mixin grid($items-per-line: 2) {
+  display: flex;
+  flex-wrap: wrap;
+
+  > * {
+    flex: 1 1 calc(100% / #{$items-per-line});
+    margin: 10px;
+  }
+}
+
+.grid-container {
+  @include grid(4);
+}
